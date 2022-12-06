@@ -6,6 +6,7 @@
         <Copyright>2022</Copyright>
         <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/hsnsh/global-nuget</RepositoryUrl>
+        <PackageIconUrl>https://en.gravatar.com/userimage/229163610/e9127257f39fbc7738c9b3aded6458fc.png</PackageIconUrl>
         <PackageTags>HsnSoft Libraries</PackageTags>
         <PackageReleaseNotes>This is the initial release</PackageReleaseNotes>
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
