@@ -11,12 +11,14 @@
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
         <PackageIcon>h-tree3.png</PackageIcon>
         <PackageIcon>images\h-tree3.png</PackageIcon>
-        <Version>0.0.4</Version>
-        <PackageVersion>0.0.4</PackageVersion>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <Version>0.0.7</Version>
+        <PackageVersion>0.0.7</PackageVersion>
         <LangVersion>latest</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
         <None Include="..\..\h-tree3.png" Pack="true" Visible="false" PackagePath="images\h-tree3.png" />
+        <None Include="..\..\README.md" Pack="true" Visible="false" PackagePath="README.md" />
     </ItemGroup>
 </Project>
