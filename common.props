@@ -5,7 +5,7 @@
         <Description>HsnSoft Global NuGet Libraries</Description>
         <Copyright>2022</Copyright>
         <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
-        <RepositoryUrl>https://github.com/hsnsh/nuget-works</RepositoryUrl>
+        <RepositoryUrl>https://github.com/hsnsh/global-nuget</RepositoryUrl>
         <PackageTags>HsnSoft Libraries</PackageTags>
         <PackageReleaseNotes>This is the initial release</PackageReleaseNotes>
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
