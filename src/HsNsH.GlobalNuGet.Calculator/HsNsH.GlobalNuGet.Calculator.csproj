@@ -8,7 +8,5 @@
         <Nullable>enable</Nullable>
         <PackageId>HsNsH.GlobalNuGet.Calculator</PackageId>
         <Title>HsNsH Global NuGet Calculator</Title>
-        <PackageVersion>0.0.3</PackageVersion>
     </PropertyGroup>
-
 </Project>
