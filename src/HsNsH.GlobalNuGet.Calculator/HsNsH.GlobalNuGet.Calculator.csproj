@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>HsNsH.GlobalNuGet.Calculator</PackageId>
+        <Title>HsNsH Global NuGet Calculator</Title>
+    </PropertyGroup>
+
+</Project>

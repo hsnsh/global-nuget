@@ -1,0 +1,15 @@
+<Project>
+    <PropertyGroup>
+        <Product>HsNsH Global NuGet Libraries</Product>
+        <Authors>HsnSoft</Authors>
+        <Description>HsnSoft Global NuGet Libraries</Description>
+        <Copyright>2022</Copyright>
+        <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/hsnsh/nuget-works</RepositoryUrl>
+        <PackageTags>HsnSoft Libraries</PackageTags>
+        <PackageReleaseNotes>This is the initial release</PackageReleaseNotes>
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+        <Version>0.0.1</Version>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+</Project>
