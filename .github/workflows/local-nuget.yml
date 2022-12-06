@@ -1,4 +1,4 @@
-name: "Deploy to GitHub NuGet"
+name: "Deploy to Local NuGet"
 
 on:
   push:
@@ -39,4 +39,4 @@ jobs:
         run: dotnet pack ${{ env.PROJECT_PATH }} --no-restore --no-build --configuration Release --output ${{ env.PACKAGE_OUTPUT_DIRECTORY }}
 
       - name: 'Push package'
-        run: dotnet nuget push ${{ env.PACKAGE_OUTPUT_DIRECTORY }}\*.nupkg -k ${{ secrets.GITHUB_NUGET_TOKEN }} -s ${{ env.NUGET_SOURCE_URL }}
+        run: dotnet nuget push ${{ env.PACKAGE_OUTPUT_DIRECTORY }}\*.nupkg -k ${{ secrets.LOCAL_NUGET_TOKEN }} -s ${{ env.NUGET_SOURCE_URL }}
